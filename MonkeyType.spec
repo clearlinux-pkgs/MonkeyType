@@ -6,7 +6,7 @@
 #
 Name     : MonkeyType
 Version  : 17.12.1
-Release  : 1
+Release  : 2
 URL      : https://pypi.python.org/packages/82/5f/751674de2c3a33162536fb2d67ce6dc11192a2985c540dfd9bdc7ca7c65c/MonkeyType-17.12.1.tar.gz
 Source0  : https://pypi.python.org/packages/82/5f/751674de2c3a33162536fb2d67ce6dc11192a2985c540dfd9bdc7ca7c65c/MonkeyType-17.12.1.tar.gz
 Source99 : https://pypi.python.org/packages/82/5f/751674de2c3a33162536fb2d67ce6dc11192a2985c540dfd9bdc7ca7c65c/MonkeyType-17.12.1.tar.gz.asc
@@ -17,6 +17,7 @@ Requires: MonkeyType-bin
 Requires: MonkeyType-python3
 Requires: MonkeyType-python
 Requires: retype
+Requires: typed-ast
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : python-dev
@@ -70,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1513351834
+export SOURCE_DATE_EPOCH=1513351902
 python3 setup.py build -b py3
 
 %install
