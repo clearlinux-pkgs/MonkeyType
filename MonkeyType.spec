@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x2D1FB7916A52E121 (carl@carljm.me)
 #
 Name     : MonkeyType
-Version  : 17.12.1
-Release  : 2
-URL      : https://pypi.python.org/packages/82/5f/751674de2c3a33162536fb2d67ce6dc11192a2985c540dfd9bdc7ca7c65c/MonkeyType-17.12.1.tar.gz
-Source0  : https://pypi.python.org/packages/82/5f/751674de2c3a33162536fb2d67ce6dc11192a2985c540dfd9bdc7ca7c65c/MonkeyType-17.12.1.tar.gz
-Source99 : https://pypi.python.org/packages/82/5f/751674de2c3a33162536fb2d67ce6dc11192a2985c540dfd9bdc7ca7c65c/MonkeyType-17.12.1.tar.gz.asc
+Version  : 17.12.2
+Release  : 3
+URL      : https://pypi.python.org/packages/cc/97/f5d2957fa234b505bd0e07be250def66c0724032dc9f28aa0a79bd7ce8fa/MonkeyType-17.12.2.tar.gz
+Source0  : https://pypi.python.org/packages/cc/97/f5d2957fa234b505bd0e07be250def66c0724032dc9f28aa0a79bd7ce8fa/MonkeyType-17.12.2.tar.gz
+Source99 : https://pypi.python.org/packages/cc/97/f5d2957fa234b505bd0e07be250def66c0724032dc9f28aa0a79bd7ce8fa/MonkeyType-17.12.2.tar.gz.asc
 Summary  : Generating type annotations from sampled production types
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -35,6 +35,8 @@ BuildRequires : typed-ast
         
         Examples
         --------
+        
+        Run a script under call-trace logging of functions and methods in all imported
 
 %package bin
 Summary: bin components for the MonkeyType package.
@@ -64,14 +66,14 @@ python3 components for the MonkeyType package.
 
 
 %prep
-%setup -q -n MonkeyType-17.12.1
+%setup -q -n MonkeyType-17.12.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1513351902
+export SOURCE_DATE_EPOCH=1513615810
 python3 setup.py build -b py3
 
 %install
