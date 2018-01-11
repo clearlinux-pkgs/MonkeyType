@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x2D1FB7916A52E121 (carl@carljm.me)
 #
 Name     : MonkeyType
-Version  : 17.12.3
-Release  : 5
-URL      : https://pypi.python.org/packages/8a/34/69e43d5e6c93e9b24d2819b747a8da60896f9d8cea95c3a34b0bd7545d0d/MonkeyType-17.12.3.tar.gz
-Source0  : https://pypi.python.org/packages/8a/34/69e43d5e6c93e9b24d2819b747a8da60896f9d8cea95c3a34b0bd7545d0d/MonkeyType-17.12.3.tar.gz
-Source99 : https://pypi.python.org/packages/8a/34/69e43d5e6c93e9b24d2819b747a8da60896f9d8cea95c3a34b0bd7545d0d/MonkeyType-17.12.3.tar.gz.asc
+Version  : 18.1.10
+Release  : 6
+URL      : https://pypi.python.org/packages/da/51/c0c206a42479f4340a28581a11db5a0a459fe67dc69b83227cfcc93e9ef9/MonkeyType-18.1.10.tar.gz
+Source0  : https://pypi.python.org/packages/da/51/c0c206a42479f4340a28581a11db5a0a459fe67dc69b83227cfcc93e9ef9/MonkeyType-18.1.10.tar.gz
+Source99 : https://pypi.python.org/packages/da/51/c0c206a42479f4340a28581a11db5a0a459fe67dc69b83227cfcc93e9ef9/MonkeyType-18.1.10.tar.gz.asc
 Summary  : Generating type annotations from sampled production types
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -33,10 +33,8 @@ BuildRequires : typed-ast
         can automatically generate stub files or even add draft type annotations
         directly to your Python code based on the types collected at runtime.
         
-        Examples
-        --------
-        
-        Run a script under call-trace logging of functions and methods in all imported
+        Example
+        -------
 
 %package bin
 Summary: bin components for the MonkeyType package.
@@ -66,14 +64,14 @@ python3 components for the MonkeyType package.
 
 
 %prep
-%setup -q -n MonkeyType-17.12.3
+%setup -q -n MonkeyType-18.1.10
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1513977903
+export SOURCE_DATE_EPOCH=1515641473
 python3 setup.py build -b py3
 
 %install
