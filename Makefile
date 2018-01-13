@@ -1,5 +1,5 @@
 PKG_NAME := MonkeyType
-URL = https://pypi.python.org/packages/da/51/c0c206a42479f4340a28581a11db5a0a459fe67dc69b83227cfcc93e9ef9/MonkeyType-18.1.10.tar.gz
+URL = https://pypi.python.org/packages/aa/1c/ff61a5b8cd50a254bf650b85fabc642f8a8a1fccdc340f45eceee9dd9f35/MonkeyType-18.1.11.tar.gz
 
 
 include ../common/Makefile.common
