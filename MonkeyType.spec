@@ -6,7 +6,7 @@
 #
 Name     : MonkeyType
 Version  : 18.1.13
-Release  : 8
+Release  : 9
 URL      : https://pypi.python.org/packages/e9/7e/d014360f9fbd179234d370ca3ec85e3b8e2d73b9341438439dec9212afee/MonkeyType-18.1.13.tar.gz
 Source0  : https://pypi.python.org/packages/e9/7e/d014360f9fbd179234d370ca3ec85e3b8e2d73b9341438439dec9212afee/MonkeyType-18.1.13.tar.gz
 Source99 : https://pypi.python.org/packages/e9/7e/d014360f9fbd179234d370ca3ec85e3b8e2d73b9341438439dec9212afee/MonkeyType-18.1.13.tar.gz.asc
