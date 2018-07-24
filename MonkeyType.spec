@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x2D1FB7916A52E121 (carl@carljm.me)
 #
 Name     : MonkeyType
-Version  : 18.2.0
-Release  : 18
-URL      : https://pypi.python.org/packages/5f/59/43bc6e44d69bd268e545fdfacdd6866362aca57ac894bbc3177b5455c06a/MonkeyType-18.2.0.tar.gz
-Source0  : https://pypi.python.org/packages/5f/59/43bc6e44d69bd268e545fdfacdd6866362aca57ac894bbc3177b5455c06a/MonkeyType-18.2.0.tar.gz
-Source99 : https://pypi.python.org/packages/5f/59/43bc6e44d69bd268e545fdfacdd6866362aca57ac894bbc3177b5455c06a/MonkeyType-18.2.0.tar.gz.asc
+Version  : 18.5.1
+Release  : 19
+URL      : https://files.pythonhosted.org/packages/c1/50/df1c3984b5992fd310a3e41fcaeca79a80ff8dea9e342b80a055a69307d7/MonkeyType-18.5.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c1/50/df1c3984b5992fd310a3e41fcaeca79a80ff8dea9e342b80a055a69307d7/MonkeyType-18.5.1.tar.gz
+Source99 : https://files.pythonhosted.org/packages/c1/50/df1c3984b5992fd310a3e41fcaeca79a80ff8dea9e342b80a055a69307d7/MonkeyType-18.5.1.tar.gz.asc
 Summary  : Generating type annotations from sampled production types
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -18,9 +18,9 @@ Requires: MonkeyType-python3
 Requires: MonkeyType-python
 Requires: retype
 Requires: typed-ast
+BuildRequires : buildreq-distutils3
 BuildRequires : pbr
 BuildRequires : pip
-
 BuildRequires : python3-dev
 BuildRequires : retype
 BuildRequires : setuptools
@@ -64,14 +64,14 @@ python3 components for the MonkeyType package.
 
 
 %prep
-%setup -q -n MonkeyType-18.2.0
+%setup -q -n MonkeyType-18.5.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1518551133
+export SOURCE_DATE_EPOCH=1532467979
 python3 setup.py build -b py3
 
 %install
