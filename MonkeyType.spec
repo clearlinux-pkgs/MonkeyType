@@ -4,7 +4,7 @@
 #
 Name     : MonkeyType
 Version  : 18.8.0
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/e9/50/fd4f0fa81bfb16fc9b11b4149984bb53ed238b135e559e212f74932784ba/MonkeyType-18.8.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e9/50/fd4f0fa81bfb16fc9b11b4149984bb53ed238b135e559e212f74932784ba/MonkeyType-18.8.0.tar.gz
 Summary  : Generating type annotations from sampled production types
