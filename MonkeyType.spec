@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x2D1FB7916A52E121 (carl@carljm.me)
 #
 Name     : MonkeyType
-Version  : 19.1.0
-Release  : 22
-URL      : https://files.pythonhosted.org/packages/c3/70/c1e5792ca96e5ffc155affc2b9e85bed1b0a556770573422dcbd6dd69cf7/MonkeyType-19.1.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c3/70/c1e5792ca96e5ffc155affc2b9e85bed1b0a556770573422dcbd6dd69cf7/MonkeyType-19.1.0.tar.gz
-Source99 : https://files.pythonhosted.org/packages/c3/70/c1e5792ca96e5ffc155affc2b9e85bed1b0a556770573422dcbd6dd69cf7/MonkeyType-19.1.0.tar.gz.asc
+Version  : 19.1.1
+Release  : 23
+URL      : https://files.pythonhosted.org/packages/b7/bc/35cb145db63319f99fc8a8de7f6b5af02e0d03630ac837b2a84e4ecfa2ed/MonkeyType-19.1.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/b7/bc/35cb145db63319f99fc8a8de7f6b5af02e0d03630ac837b2a84e4ecfa2ed/MonkeyType-19.1.1.tar.gz
+Source99 : https://files.pythonhosted.org/packages/b7/bc/35cb145db63319f99fc8a8de7f6b5af02e0d03630ac837b2a84e4ecfa2ed/MonkeyType-19.1.1.tar.gz.asc
 Summary  : Generating type annotations from sampled production types
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -57,14 +57,14 @@ python3 components for the MonkeyType package.
 
 
 %prep
-%setup -q -n MonkeyType-19.1.0
+%setup -q -n MonkeyType-19.1.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1547740949
+export SOURCE_DATE_EPOCH=1547844362
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
