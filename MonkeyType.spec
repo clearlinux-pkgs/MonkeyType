@@ -6,7 +6,7 @@
 #
 Name     : MonkeyType
 Version  : 19.5.0
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/e8/2e/1c7d3e9541569b7a06dd74512895f606a7898d1fc98bdc107f0d2b578b5f/MonkeyType-19.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e8/2e/1c7d3e9541569b7a06dd74512895f606a7898d1fc98bdc107f0d2b578b5f/MonkeyType-19.5.0.tar.gz
 Source99 : https://files.pythonhosted.org/packages/e8/2e/1c7d3e9541569b7a06dd74512895f606a7898d1fc98bdc107f0d2b578b5f/MonkeyType-19.5.0.tar.gz.asc
@@ -17,17 +17,20 @@ Requires: MonkeyType-bin = %{version}-%{release}
 Requires: MonkeyType-python = %{version}-%{release}
 Requires: MonkeyType-python3 = %{version}-%{release}
 Requires: retype
-Requires: typed-ast
+Requires: typed_ast
 BuildRequires : buildreq-distutils3
 BuildRequires : retype
-BuildRequires : typed-ast
+BuildRequires : typed_ast
 
 %description
-MonkeyType
 ==========
-MonkeyType collects runtime types of function arguments and return values, and
-can automatically generate stub files or even add draft type annotations
-directly to your Python code based on the types collected at runtime.
+        
+        MonkeyType collects runtime types of function arguments and return values, and
+        can automatically generate stub files or even add draft type annotations
+        directly to your Python code based on the types collected at runtime.
+        
+        Example
+        -------
 
 %package bin
 Summary: bin components for the MonkeyType package.
@@ -64,7 +67,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1557788723
+export SOURCE_DATE_EPOCH=1560300987
+export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
