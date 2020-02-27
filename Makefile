@@ -1,5 +1,5 @@
 PKG_NAME := MonkeyType
-URL = https://files.pythonhosted.org/packages/e8/2e/1c7d3e9541569b7a06dd74512895f606a7898d1fc98bdc107f0d2b578b5f/MonkeyType-19.5.0.tar.gz
+URL = https://files.pythonhosted.org/packages/05/a6/2feaeb16046b47ed64cef830efceaeeb2a9d67c8229c996b2730801700ac/MonkeyType-19.11.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
