@@ -6,7 +6,7 @@
 #
 Name     : MonkeyType
 Version  : 19.11.2
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/05/a6/2feaeb16046b47ed64cef830efceaeeb2a9d67c8229c996b2730801700ac/MonkeyType-19.11.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/05/a6/2feaeb16046b47ed64cef830efceaeeb2a9d67c8229c996b2730801700ac/MonkeyType-19.11.2.tar.gz
 Source1  : https://files.pythonhosted.org/packages/05/a6/2feaeb16046b47ed64cef830efceaeeb2a9d67c8229c996b2730801700ac/MonkeyType-19.11.2.tar.gz.asc
@@ -373,7 +373,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582837575
+export SOURCE_DATE_EPOCH=1583173976
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
