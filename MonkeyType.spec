@@ -6,7 +6,7 @@
 #
 Name     : MonkeyType
 Version  : 20.4.1
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/0c/17/95ea27b4ca17daf4c049bd87fa5ba720a621f3a875351e5175abe167aeda/MonkeyType-20.4.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0c/17/95ea27b4ca17daf4c049bd87fa5ba720a621f3a875351e5175abe167aeda/MonkeyType-20.4.1.tar.gz
 Source1  : https://files.pythonhosted.org/packages/0c/17/95ea27b4ca17daf4c049bd87fa5ba720a621f3a875351e5175abe167aeda/MonkeyType-20.4.1.tar.gz.asc
