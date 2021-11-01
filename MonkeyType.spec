@@ -6,7 +6,7 @@
 #
 Name     : MonkeyType
 Version  : 21.5.0
-Release  : 47
+Release  : 48
 URL      : https://files.pythonhosted.org/packages/17/89/59d5f222e88763a4dca897a1af7556f33297169c5f6db872fc64cefc3bc2/MonkeyType-21.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/17/89/59d5f222e88763a4dca897a1af7556f33297169c5f6db872fc64cefc3bc2/MonkeyType-21.5.0.tar.gz
 Source1  : https://files.pythonhosted.org/packages/17/89/59d5f222e88763a4dca897a1af7556f33297169c5f6db872fc64cefc3bc2/MonkeyType-21.5.0.tar.gz.asc
@@ -85,15 +85,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1622647373
+export SOURCE_DATE_EPOCH=1635753839
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
